@@ -7,4 +7,17 @@
             <button type="submit">Login</button>
         </form>
     </div>
-    </template>
+</template>
+
+<script setup></script>
+
+<style scoped>
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, button {
+  padding: 8px;
+}
+</style>
